@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
+import Header from "@/components/Header";
+import Main from "@/components/Main";
+import Footer from "@/components/Footer";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <div className='text-center text-blue-500'>aaaa</div>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
