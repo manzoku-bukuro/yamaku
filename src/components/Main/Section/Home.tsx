@@ -22,9 +22,7 @@ const Section = () => {
           <span>Pioneer of technology and</span> 
           <span>environmental equipment</span>
         </h4>
-      </div>
-      <div className="detail py-32 px-4 text-center">
-        <div className="text-primary font-bold text-xl ">弊社は環境に優しい設備、経済的な企業運営をサポートするエンジニア企業です</div>
+        <div className="mt-6 text-primary font-bold text-xl">弊社は環境に優しい設備、経済的な企業運営をサポートするエンジニア企業です</div>
         <div className="mt-4">新築工事はもちろんの事、更新工事（リノベーション）においても</div>
         <div className="mt-2">オフィス・飲食店・工場・商店など各施設に合わせた最適な空間をお届けいたします</div>
       </div>
