@@ -17,9 +17,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -41,7 +41,7 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "^7.1.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.25",
     "prettier": "3.0.0",
