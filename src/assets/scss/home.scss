@@ -1,18 +1,16 @@
 #home {
-  .concept {
-    background-position: center center;
-    background-image: url(./../img/sky.jpg);
-    background-size: cover;
-    transform: translate3d(0px, 0px, 0px);
+  background-position: center center;
+  background-image: url(./../img/sky.jpg);
+  background-size: cover;
+  transform: translate3d(0px, 0px, 0px);
 
-    .main {
-      text-shadow: 2px 2px 0 #fff;
-    }
+  .main {
+    text-shadow: 2px 2px 0 #fff;
+  }
 
-    .sub {
-      text-shadow: 1px 1px 0 #fff;
-      color: #f1c232;
-      font-weight: bold;
-    }
+  .sub {
+    text-shadow: 1px 1px 0 #fff;
+    color: #f1c232;
+    font-weight: bold;
   }
 }
