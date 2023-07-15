@@ -8,7 +8,7 @@ interface SectionProps {
 
 const Section = () => {
   return (
-    <section id="home" className="pt-40 pb-32 text-center">
+    <section id="home" className="pt-40 pb-32">
       <h2 className="text-5xl text-shadow-bold">人が繋ぐ未来へ</h2>
       <div className="text-2xl text-shadow-default font-bold text-orange mt-4 flex justify-center flex-wrap italic">
         <span>Pioneer of technology and</span> 
