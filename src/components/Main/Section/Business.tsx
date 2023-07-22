@@ -2,6 +2,7 @@ import React from "react";
 import '@/assets/scss/business.scss';
 import AirConditioning from '@/assets/img/air_conditioning.jpg';
 import Hygiene from '@/assets/img/hygiene.jpg';
+import Maintenance from '@/assets/img/maintenance.jpg';
 
 
 const Section= () => {
@@ -33,7 +34,7 @@ const Section= () => {
         </div>
 
         <div className="flex mb-16">
-          <img className="w-1/2 px-4 object-contain" src={Hygiene} alt="空調換気設備" />
+          <img className="w-1/2 px-4 object-contain" src={Hygiene} alt="衛生設備" />
           <div className="w-1/2 px-4 text-left">
             <div className="content-title">
               <h3 className="text-3xl text-primary">衛生設備</h3>
@@ -50,7 +51,24 @@ const Section= () => {
           </div>
         </div>
 
-
+        <div className="flex mb-16">
+          <div className="w-1/2 px-4 text-left">
+            <div className="content-title">
+              <h3 className="text-3xl text-primary">メンテナンス</h3>
+            </div>
+            <div className="mb-4">
+              <p className="mb-1">設備の快適性を維持するためには、点検・清掃・必要に応じて修理・交換が必要です。適切な設備管理は経費の削減にも繋がります。</p>
+              <p className="mb-1">年間契約に基づく保守メンテナンスや個別契約によるメンテナンスなど、お客様のニーズに沿ったサービスを提供いたします。</p>
+            </div>
+            <div className="mb-4">
+              <div className="content-sub-title">空調機・空気清浄器のメンテナンス</div>
+              <div className="content-sub-title">各種空調換気設備のオーバーホール</div>
+              <div className="content-sub-title">給水・排水の配管内部の撮影診断</div>
+              <div className="content-sub-title">給水管の更生、排水管の高圧洗浄</div>
+            </div>
+          </div>
+          <img className="w-1/2 px-4 object-contain" src={Maintenance} alt="メンテナンス" />
+        </div>
       </div>
     </section>
   );
