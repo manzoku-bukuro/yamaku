@@ -1,6 +1,8 @@
 import React from "react";
 import '@/assets/scss/business.scss';
-import AirConditioning from '@/assets/img/air_onditioning.jpg';
+import AirConditioning from '@/assets/img/air_conditioning.jpg';
+import Hygiene from '@/assets/img/hygiene.jpg';
+
 
 const Section= () => {
   return (
@@ -29,6 +31,26 @@ const Section= () => {
           </div>
           <img className="w-1/2 px-4 object-contain" src={AirConditioning} alt="空調換気設備" />
         </div>
+
+        <div className="flex mb-16">
+          <img className="w-1/2 px-4 object-contain" src={Hygiene} alt="空調換気設備" />
+          <div className="w-1/2 px-4 text-left">
+            <div className="content-title">
+              <h3 className="text-3xl text-primary">衛生設備</h3>
+            </div>
+            <div className="mb-4">
+              <p className="mb-1">日常生活に必要不可欠なトイレや水廻りなどの衛生設備、快適かつ環境に配慮した設備をご提案いたします。</p>
+            </div>
+            <div className="mb-4">
+              <div className="content-sub-title">節水に特化した衛生器具への更新</div>
+              <div className="content-sub-title">森林保護のためのペーパーレストイレへの更新</div>
+              <div className="content-sub-title">和風便器から洋風便器への更新</div>
+              <div className="content-sub-title">バリアフリー 多目的トイレの新設 etc</div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </section>
   );
