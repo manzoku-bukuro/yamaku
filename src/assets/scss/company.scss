@@ -1,0 +1,29 @@
+#company {
+  .overview {
+    margin: 0 auto;
+    padding: 24px 10%;
+    max-width: 1200px;
+    table {
+      width: 100%;
+      tr {
+        border-bottom: 1px solid #dee2e6;
+        font-size: 16px;
+        th, td {
+          padding: 16px 8px;
+          text-align: left;
+          vertical-align: top;
+        }
+        th {
+          width: 200px;
+          font-weight: bold;
+        }
+        dl {
+          margin-bottom: 8px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
