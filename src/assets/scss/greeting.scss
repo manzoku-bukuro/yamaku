@@ -1,0 +1,11 @@
+#greeting {
+  background-position: center center;
+  background-image: url(./../img/footer.jpg);
+  background-size: cover;
+  transform: translate3d(0px, 0px, 0px);
+  padding: 32px 0;
+  .greeting-text-area {
+    padding: 0 20%;
+    text-align: left;
+  }
+}
