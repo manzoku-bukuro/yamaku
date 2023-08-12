@@ -4,11 +4,8 @@ import '@/assets/scss/greeting.scss';
 const Section= () => {
   return (
     <section id="greeting">
-      <h2 className="title">ご挨拶</h2>
+      <h2 className="title">ごあいさつ</h2>
       <div className="greeting-text-area">
-        <h3 className="text-3xl tracking-widest">
-          ごあいさつ
-        </h3>
         <div className="text-lg mt-6">
           <p>弊社は創業以来、さまざまな建築物の空調換気設備工事や給排水衛生設備工事に携わってまいりました。</p>
           <p>社員一人一人が常に技術の向上に努めるとともに</p>
