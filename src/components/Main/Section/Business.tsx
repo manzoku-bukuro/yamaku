@@ -10,8 +10,8 @@ const Section= () => {
     <section id="business">
       <h2 className="title">事業内容</h2>
       <div className="">
-        <div className="flex mb-16">
-          <div className="w-1/2 px-4 text-left">
+        <div className="flex flex-wrap mb-16">
+          <div className="md:w-1/2 w-full px-4 text-left">
             <div className="content-title">
               <h3 className="text-3xl text-primary">空調換気設備</h3>
             </div>
@@ -30,12 +30,11 @@ const Section= () => {
               <div className="content-sub-title">喫煙室の新設（分煙対策) etc</div>
             </div>
           </div>
-          <img className="w-1/2 px-4 object-contain" src={AirConditioning} alt="空調換気設備" />
+          <img className="md:w-1/2 w-full px-4 object-contain" src={AirConditioning} alt="空調換気設備" />
         </div>
 
-        <div className="flex mb-16">
-          <img className="w-1/2 px-4 object-contain" src={Hygiene} alt="衛生設備" />
-          <div className="w-1/2 px-4 text-left">
+        <div className="flex md:flex-row-reverse flex-row flex-wrap mb-16">
+          <div className="md:w-1/2 w-full px-4 text-left">
             <div className="content-title">
               <h3 className="text-3xl text-primary">衛生設備</h3>
             </div>
@@ -49,10 +48,11 @@ const Section= () => {
               <div className="content-sub-title">バリアフリー 多目的トイレの新設 etc</div>
             </div>
           </div>
+          <img className="md:w-1/2 w-full px-4 object-contain" src={Hygiene} alt="衛生設備" />
         </div>
 
-        <div className="flex mb-16">
-          <div className="w-1/2 px-4 text-left">
+        <div className="flex flex-wrap mb-16">
+          <div className="md:w-1/2 w-full px-4 text-left">
             <div className="content-title">
               <h3 className="text-3xl text-primary">メンテナンス</h3>
             </div>
@@ -67,7 +67,7 @@ const Section= () => {
               <div className="content-sub-title">給水管の更生、排水管の高圧洗浄</div>
             </div>
           </div>
-          <img className="w-1/2 px-4 object-contain" src={Maintenance} alt="メンテナンス" />
+          <img className="md:w-1/2 w-full px-4 object-contain" src={Maintenance} alt="メンテナンス" />
         </div>
       </div>
     </section>

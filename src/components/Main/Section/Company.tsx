@@ -21,7 +21,6 @@ const Section= () => {
               <td>
                 <dl>TEL：049-275-7000</dl>
                 <dl>FAX：049-275-7005</dl>
-                <dl>FAX：049-275-7005</dl>
               </td>
             </tr>
             <tr>
