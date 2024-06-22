@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.07484a88.css",
+    "main.js": "./static/js/main.c8bf979d.js",
+    "static/js/787.08d5fc0a.chunk.js": "./static/js/787.08d5fc0a.chunk.js",
+    "static/media/air_conditioning.jpg": "./static/media/air_conditioning.34bd93a11fde30c9bcf3.jpg",
+    "static/media/hygiene.jpg": "./static/media/hygiene.30383c1abd0b384b11d7.jpg",
+    "static/media/maintenance.jpg": "./static/media/maintenance.9f345b84dd0a956f4236.jpg",
+    "static/media/earth.jpg": "./static/media/earth.845c0ad702d87c7a723e.jpg",
+    "static/media/footer.jpg": "./static/media/footer.47120d2c66ef2104c6d2.jpg",
+    "static/media/sky.jpg": "./static/media/sky.4bf5b16937bfc0dfc01e.jpg",
+    "static/media/logo.png": "./static/media/logo.9fc5481cf9b9344996e4.png",
+    "static/media/leaf.svg": "./static/media/leaf.37713553426f3c24296a.svg",
+    "index.html": "./index.html",
+    "static/media/burger.svg": "./static/media/burger.0f26fc2059a8880b7cd9170d6759923b.svg",
+    "main.07484a88.css.map": "./static/css/main.07484a88.css.map",
+    "main.c8bf979d.js.map": "./static/js/main.c8bf979d.js.map",
+    "787.08d5fc0a.chunk.js.map": "./static/js/787.08d5fc0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07484a88.css",
+    "static/js/main.c8bf979d.js"
+  ]
+}
