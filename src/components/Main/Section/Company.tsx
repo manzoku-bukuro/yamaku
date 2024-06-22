@@ -10,7 +10,7 @@ const Section= () => {
           <tbody>
             <tr>
               <th>称号</th>
-              <td>株式会社山空</td>
+              <td>株式会社 山空</td>
             </tr>
             <tr>
               <th>所在地</th>
