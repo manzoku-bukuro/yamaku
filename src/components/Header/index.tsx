@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from '@/assets/img/logo.png';
 import burger from '@/assets/img/burger.svg';
+import '@/assets/scss/header.scss';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,7 @@ const Header = () => {
   };
   return (
     <header className="fixed top-0 w-full md:h-20 h-10 bg-transparent flex items-center justify-between px-8 z-10">
-      <img className="md:w-60 w-40" src={logo} alt="株式会社 山空" />
+      <span className="md:text-3xl text-xl">株式会社 山空</span>
       <button className="md:hidden" onClick={toggleMenu}>
         <img className="w-8" src={burger} alt="メニュー" />
       </button>
