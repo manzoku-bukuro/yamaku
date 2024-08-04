@@ -27,7 +27,6 @@ const Section= () => {
                 <li>省エネタイプ空調機器への更新</li>
                 <li>省エネタイプ換気機器（全熱交換器）の設置</li>
               </ul>
-              <div className="content-sub-title">喫煙室の新設（分煙対策) etc</div>
             </div>
           </div>
           <img className="md:w-1/2 w-full px-4 object-contain" src={AirConditioning} alt="空調換気設備" />
@@ -43,8 +42,6 @@ const Section= () => {
             </div>
             <div className="mb-4">
               <div className="content-sub-title">節水に特化した衛生器具への更新</div>
-              <div className="content-sub-title">森林保護のためのペーパーレストイレへの更新</div>
-              <div className="content-sub-title">和風便器から洋風便器への更新</div>
               <div className="content-sub-title">バリアフリー 多目的トイレの新設 etc</div>
             </div>
           </div>
@@ -57,7 +54,7 @@ const Section= () => {
               <h3 className="text-3xl text-primary">メンテナンス</h3>
             </div>
             <div className="mb-4">
-              <p className="mb-1">設備の快適性を維持するためには、点検・清掃・必要に応じて修理・交換が必要です。適切な設備管理は経費の削減にも繋がります。</p>
+              <p className="mb-1">快適な空間を維持するためには設備の点検・清掃、必要に応じて修理・交換が必要です。適切な設備管理は経費の削減にも繋がります。</p>
               <p className="mb-1">年間契約に基づく保守メンテナンスや個別契約によるメンテナンスなど、お客様のニーズに沿ったサービスを提供いたします。</p>
             </div>
             <div className="mb-4">
