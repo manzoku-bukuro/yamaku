@@ -1,5 +1,3 @@
-import React from "react";
-import Section from "./Section";
 import Home from "@/components/Main/Section/Home";
 import Business from "@/components/Main/Section/Business";
 import Company from "@/components/Main/Section/Company";

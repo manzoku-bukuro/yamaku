@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from '@/assets/img/logo.png';
 import burger from '@/assets/img/burger.svg';
 import '@/assets/scss/header.scss';
 

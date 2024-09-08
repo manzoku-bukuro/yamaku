@@ -1,11 +1,6 @@
 import React from "react";
 import '@/assets/scss/home.scss';
 
-interface SectionProps {
-  id: string;
-  bg: string;
-}
-
 const Section = () => {
   return (
     <section id="home" className="md:pt-40 md:pb-32 pt-20 pb-16">
