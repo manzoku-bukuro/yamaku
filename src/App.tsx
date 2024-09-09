@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 import Header from "@/components/Header";
 import Main from "@/components/Main";
 import Footer from "@/components/Footer";
-import logo from "@/assets/images/logo.png";
+import logo from "@/assets/img/logo.png";
 
 const App = () => {
   return (
