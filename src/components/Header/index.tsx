@@ -16,7 +16,7 @@ const Header = () => {
         <img className="w-8" src={burger} alt="メニュー" />
       </button>
       <nav className={`${isOpen ? 'block' : 'hidden'} md:block absolute md:static top-full left-0 w-full md:w-auto bg-white md:bg-transparent`}>
-        <ul className="flex flex-col md:flex-row md:space-x-4 font-bold md:text-lg text-sm">
+        <ul className="flex flex-col md:flex-row font-bold md:text-lg text-sm">
           <li className="border-b md:border-none"><a href="#home" className="block py-2 px-4">ホーム</a></li>
           <li className="border-b md:border-none"><a href="#business" className="block py-2 px-4">事業内容</a></li>
           <li className="border-b md:border-none"><a href="#company" className="block py-2 px-4">会社情報</a></li>
