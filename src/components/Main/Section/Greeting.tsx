@@ -14,7 +14,7 @@ const Section= () => {
           <p className="mt-6">何卒より一層のご支援ご鞭撻を賜りますようお願い申し上げます。</p>
         </div>
         <div className="text-right text-xl font-bold mt-6">
-          代表取締役 山崎一夫
+          代表取締役　山崎 一夫
         </div>
       </div>
     </section>
